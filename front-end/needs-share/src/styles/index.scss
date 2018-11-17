@@ -1,4 +1,10 @@
 body {
   margin: 0;
   background: #E5E5E5;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+* {
+  box-sizing: inherit;
 }

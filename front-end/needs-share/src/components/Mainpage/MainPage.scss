@@ -1,12 +1,43 @@
 @import '~open-color/open-color';
 @import '~include-media/dist/include-media';
 
-html {
-  margin: 0;
-}
-
 .main-page {
-  height: 100%;
-  width: 100%;
-  background: #E5E5E5;
+  width: 73%;
+  height: 90vh;
+  
+  .contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .board {
+    margin: 0.5rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    // justify-content: ;
+    flex-direction: column;
+    // align-items: center;
+  }
+  .small-box {
+    background: #C4C4C4;
+    height: 2.5rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-box {
+    width: 100%;
+    height: 100%;
+  }
+  .ex-board {
+    width: 100%;
+    height: 100%;
+  }
+  .example {
+    width: 100%;
+    height: 22%;
+  }
 }
