@@ -5,6 +5,7 @@ import ex1 from './images/ex.png';
 import ex2 from './images/ex2.png';
 import ex3 from './images/ex3.png';
 import ex4 from './images/wx3.png';
+import Example from '../Example';
 
 const cx = classNames.bind(styles);
 
